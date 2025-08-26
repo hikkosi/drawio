@@ -73,7 +73,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="glcoebHGGFf8UbgOov_I-17" value="Semaphore(1)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="60" y="58" width="100" height="30" as="geometry" />
+          <mxGeometry x="40" y="40" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0TomC-TLxJLsjVoDcg_B-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=80;exitDy=40;exitPerimeter=0;" edge="1" parent="1" source="glcoebHGGFf8UbgOov_I-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -89,6 +89,9 @@
         </mxCell>
         <mxCell id="0TomC-TLxJLsjVoDcg_B-3" value="スレッドの同期を取る目的で&lt;div&gt;一度Semaphoreで待機させ、&lt;/div&gt;&lt;div&gt;頃合いを見てReleaseする。&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
           <mxGeometry x="680" y="200" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="0TomC-TLxJLsjVoDcg_B-4" value="Semaphore(2)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="520" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
