@@ -88,10 +88,74 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0TomC-TLxJLsjVoDcg_B-3" value="スレッドの同期を取る目的で&lt;div&gt;一度Semaphoreで待機させ、&lt;/div&gt;&lt;div&gt;頃合いを見てReleaseする。&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
-          <mxGeometry x="680" y="200" width="200" height="200" as="geometry" />
+          <mxGeometry x="650" y="180" width="200" height="200" as="geometry" />
         </mxCell>
         <mxCell id="0TomC-TLxJLsjVoDcg_B-4" value="Semaphore(2)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="40" y="520" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0TomC-TLxJLsjVoDcg_B-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=80;exitDy=40;exitPerimeter=0;" edge="1" parent="1" source="0TomC-TLxJLsjVoDcg_B-5" target="0TomC-TLxJLsjVoDcg_B-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0TomC-TLxJLsjVoDcg_B-5" value="semaphore.Wait()" style="html=1;shape=mxgraph.infographic.ribbonSimple;notch1=20;notch2=0;align=center;verticalAlign=middle;fontSize=14;fontStyle=0;flipH=1;fillColor=#FFFFFF;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="160" y="600" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0TomC-TLxJLsjVoDcg_B-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="0TomC-TLxJLsjVoDcg_B-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0TomC-TLxJLsjVoDcg_B-6" value="&lt;span style=&quot;font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;semaphore.Release()&lt;/span&gt;" style="html=1;shape=mxgraph.infographic.ribbonSimple;notch1=0;notch2=20;align=center;verticalAlign=middle;fontSize=14;fontStyle=0;fillColor=#FFFFFF;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="160" y="760" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0TomC-TLxJLsjVoDcg_B-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="0TomC-TLxJLsjVoDcg_B-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="560" as="sourcePoint" />
+            <mxPoint x="240.5" y="589" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0TomC-TLxJLsjVoDcg_B-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="0TomC-TLxJLsjVoDcg_B-9" target="0TomC-TLxJLsjVoDcg_B-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0TomC-TLxJLsjVoDcg_B-9" value="Use Resource" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0TomC-TLxJLsjVoDcg_B-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.506;exitY=1.025;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="0TomC-TLxJLsjVoDcg_B-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="880" as="sourcePoint" />
+            <mxPoint x="240" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0TomC-TLxJLsjVoDcg_B-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=80;exitDy=160;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0TomC-TLxJLsjVoDcg_B-12" target="0TomC-TLxJLsjVoDcg_B-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0TomC-TLxJLsjVoDcg_B-12" value="semaphore.Wait()" style="html=1;shape=mxgraph.infographic.ribbonSimple;notch1=20;notch2=0;align=center;verticalAlign=middle;fontSize=14;fontStyle=0;flipH=1;fillColor=#FFFFFF;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="440" y="640" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="0TomC-TLxJLsjVoDcg_B-13" value="&lt;span style=&quot;font-size: 12px; text-wrap-mode: nowrap;&quot;&gt;semaphore.Release()&lt;/span&gt;" style="html=1;shape=mxgraph.infographic.ribbonSimple;notch1=0;notch2=20;align=center;verticalAlign=middle;fontSize=14;fontStyle=0;fillColor=#FFFFFF;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="440" y="910" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0TomC-TLxJLsjVoDcg_B-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="0TomC-TLxJLsjVoDcg_B-15" target="0TomC-TLxJLsjVoDcg_B-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0TomC-TLxJLsjVoDcg_B-15" value="Use Resource" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0TomC-TLxJLsjVoDcg_B-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=80;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="0TomC-TLxJLsjVoDcg_B-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="560" as="sourcePoint" />
+            <mxPoint x="519.5" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0TomC-TLxJLsjVoDcg_B-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1.025;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="0TomC-TLxJLsjVoDcg_B-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="519.5" y="960" as="sourcePoint" />
+            <mxPoint x="519.5" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0TomC-TLxJLsjVoDcg_B-21" value="限られたリソースへのアクセスを制限する目的で使用する" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="640" y="640" width="200" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
