@@ -143,7 +143,7 @@
           <mxGeometry x="250" y="479" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eeUPSPvInzNFd0l2D4Lc-38" value="Taskを複数同時に実行するケース" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="35" y="10" width="200" height="30" as="geometry" />
+          <mxGeometry x="40" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lKiSZWOHatkODyCgWrYR-1" value="終了させないと、リソースが残って&lt;div&gt;タスクが貼りし続けることがあるので、&lt;/div&gt;&lt;div&gt;要注意&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
           <mxGeometry x="600" y="530" width="230" height="100" as="geometry" />
